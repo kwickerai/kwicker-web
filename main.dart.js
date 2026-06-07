@@ -95149,10 +95149,9 @@ p=n.w
 o=p?m:n.galX()
 q.push(A.r4(!0,A.c3(m,A.dk(A.b([r,B.cv,A.ie(m,A.c3(m,p?B.Qt:B.JB,B.m,m,m,B.nS,m,46,m,m,m,m,46),B.Y,!1,m,m,m,m,m,m,m,m,m,m,m,m,m,m,o,m,m,m,m,m,m)],s),B.B,B.u,B.z,0),B.m,m,m,B.DJ,m,m,m,B.hM,m,m,m),B.W,!1))}s=A.c6(q,B.B,B.u,B.z)}}return A.nV(i,B.G1,s,m,m)}}
 A.aso.prototype={
-$0(){var s=this.a,r=s.d=this.b,q=r==null,p=q?null:r.h(0,"ai_paused")
-if(!(p==null?!1:p)){r=q?null:r.h(0,"requesting_intervention")
-if(r==null)r=!1}else r=!0
-s.f=r
+$0(){var s=this.a,r=s.d=this.b
+r=r==null?null:r.h(0,"ai_paused")
+s.f=r==null?!1:r
 s.e=!1},
 $S:0}
 A.asp.prototype={
