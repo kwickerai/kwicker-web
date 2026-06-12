@@ -124,6 +124,17 @@
       messagingSenderId: "868790588883",
       appId: "1:868790588883:web:da883853f98e92beb90b26"
     });
+
+    // Register Firebase messaging service worker explicitly
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('firebase-messaging-sw.js', {
+        scope: '/'
+      }).then(function(reg) {
+        console.log('Firebase SW registered:', reg.scope);
+      }).catch(function(err) {
+        console.error('Firebase SW registration failed:', err);
+      });
+    }
   </script>
 
 </body></html>
